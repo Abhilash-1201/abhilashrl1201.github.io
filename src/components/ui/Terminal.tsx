@@ -14,7 +14,7 @@ type FileSystem = {
 const fileSystem: FileSystem = {
   "profile.txt": `📋 DevOps Engineer Profile
 ----------------------------
-🚀 Name: Rajaram Sankarasubramanian
+🚀 Name: Abhilash RLankarasubramanian
 🌐 Specialization: Cloud with DevOps
 🏆 Mission: Be a AWS / DevSecOps professional
 
@@ -56,12 +56,12 @@ const fileSystem: FileSystem = {
   ◉ Oracle Cloud Infrastructure Foundations Certified Associate`,
 
   "contact.info": `📧 Contact Information:
-Email: madeshrajaram0203@gmail.com
+Email: abhilashnarayan1201@gmail.com
 Location: Bangalore, Karnataka, India 🇮🇳
-LinkedIn: /in/rajaram0203
+LinkedIn: /in/abhilash-rl
 GitHub: /rajaram0203
-Phone: +91 9159607234
-Portfolio: rajaram0203.github.io`,
+Phone: +91 8748865517
+Portfolio: abhilashrl1201.github.io`,
 
   "status.log": `🚀 System Status Dashboard
 
@@ -94,7 +94,7 @@ DevOps Infrastructure Monitor
   "resume.pdf": `📄 Resume Download
 
 🔗 Direct Download:
-→ https://rajarammohan0203.github.io/resume.pdf
+→ https://abhilashrl1201.github.io/resume.pdf
 
 📱 QR Code for Mobile Access:
 [Generating QR Code...]`,
@@ -247,10 +247,10 @@ const Terminal = ({
 
   // Generate QR code in terminal format - integrated from QRTerminal.tsx
   const generateQRCode = (text: string): string => {
-  // QR code matrix for https://rajarammohan0203.github.io/resume.pdf
+  // QR code matrix for https://abhilashrl1201.github.io/resume.pdf
   // OR code generated using an online tool and converted to terminal format
   // Command used: below command generate the qr code This will format AND copy to your clipboard: Now just press Cmd+V in VS Code! ✨ in the macOS terminal
-  // qrencode -t UTF8 -s 1 -m 0 -l L -v 2 "https://rajarammohan0203.github.io/resume.pdf" | awk 'BEGIN {print "const qrMatrix = ["} {printf "  \"%s\",\n", $0} END {print "];"}' | pbcopy
+  // qrencode -t UTF8 -s 1 -m 0 -l L -v 2 "https://abhilashrl1201.github.io/resume.pdf" | awk 'BEGIN {print "const qrMatrix = ["} {printf "  \"%s\",\n", $0} END {print "];"}' | pbcopy
   const qrMatrix = [
     " ▄▄▄▄▄ █▀ █▀▀▀ █▄▀ █▀█ ▄▄▄▄▄ ",
     " █   █ █▀ ▄ █▀▄▀▀▀▀▄▀█ █   █ ",
@@ -300,7 +300,7 @@ const Terminal = ({
     if (typeof current === "string") {
       // Special handling for resume.pdf to generate QR code dynamically
       if (path === "resume.pdf") {
-        const url = "https://rajarammohan0203.github.io/resume.pdf";
+        const url = "https://abhilashrl1201.github.io/resume.pdf";
         const qrCode = generateQRCode(url);
         return `📄 Resume Download
 

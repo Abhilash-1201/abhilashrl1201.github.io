@@ -39,7 +39,7 @@ const About = () => {
   return (
   <section id="about" className="py-20 md:py-28 relative">
       <div className="sr-only">
-        Rajaram 
+        Abhilash
       </div>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
@@ -107,7 +107,7 @@ const About = () => {
                   </h3>
                   <div className="space-y-3 sm:space-y-4 flex-1">
                     <p className="text-sm sm:text-base text-foreground/80 leading-relaxed">
-                      Senior Cloud Engineer with 3.5+ years of experience
+                      Senior Cloud Engineer with 5+ years of experience
                       architecting cloud-native solutions and automating
                       infrastructure. Specialized in building secure, scalable
                       CI/CD pipelines and reducing operational overhead through

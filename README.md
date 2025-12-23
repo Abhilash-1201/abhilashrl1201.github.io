@@ -58,7 +58,7 @@ npm run preview
 git clone https://github.com/yousafkhamza/yousafkhamza.github.io.git
 
 # Navigate to project directory
-cd rajarammohan0203.github.io
+cd abhilashrl1201.github.io
 
 # Install dependencies
 bun install
@@ -171,12 +171,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Rajaram S**  
+**Abhilash RL**  
 AWS DevOps Engineer | Cloud Architect
 
-- **Portfolio** - [rajrammohan0203.github.io](https://rajarammohan0203.github.io)
-- **LinkedIn** - [linkedin.com/in/rajaram0203](https://linkedin.com/in/rajaram0203)
-- **GitHub** - [github.com/rajarammohan0203](https://github.com/rajarammohan0203)
+- **Portfolio** - [abhilashrl1201.github.io](https://abhilashrl1201.github.io)
+- **LinkedIn** - [linkedin.com/in/abhilash-rl](https://linkedin.com/in/abhilash-rl)
+- **GitHub** - [github.com/Abhilash-1201](https://github.com/Abhilash-1201)
 - **Email** - Available through portfolio contact form
 
 ---

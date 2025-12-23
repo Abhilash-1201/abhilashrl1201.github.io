@@ -45,7 +45,7 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             <span className="hidden sm:inline-block font-rockybilly text-lg sm:text-xl md:text-2xl font-medium text-center">
-              Rajaram S
+              Abhilash RL
             </span>
             <span className="sm:hidden font-rockybilly text-base font-medium">
               RS

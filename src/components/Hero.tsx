@@ -58,15 +58,15 @@ const Hero = () => {
           <div className="stagger-item stagger-delay-1 mb-4 sm:mb-6 relative inline-block">
             <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden border-4 border-white/30 shadow-lg mx-auto">
               <img
-                src="https://avatars.githubusercontent.com/rajarammohan0203"
-                alt="Rajaram S"
+                src="https://avatars.githubusercontent.com/abhilash-1201"
+                alt="Abhilash RL"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
          <h1 className="stagger-item stagger-delay-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-dm-serif text-foreground mb-3 sm:mb-4 px-2 break-words tracking-wide">
-            Rajaram S
+            Abhilash RL
             <span className="sr-only">rajaram </span>
          </h1>
 
@@ -83,7 +83,7 @@ const Hero = () => {
             Transforming cloud infrastructure with innovative DevOps solutions.<br />
             Specializing in AWS, Terraform, Kubernetes, and CI/CD automation.<br />
             <span className="text-foreground/60 text-xs sm:text-sm block mt-2">
-              Based in Sankarankovil, Tamil Nadu, India
+              Based in Banglore, Karnataka, India
             </span>
           </p>
           {/* Main CTAs: Download Resume, Try CLI, Contact */}

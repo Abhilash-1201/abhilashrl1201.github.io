@@ -7,7 +7,7 @@ const experiences = [
     title: "Senior Cloud Engineer",
     company: "Cloudjournee",
     logo: "/cjp.png",
-    period: "Dec 2023 - Dec 2025",
+    period: "April 2021 - Present",
     location: "Bangalore, India",
     description: [
       "Managed multi-account AWS infrastructure across 18+ accounts using Terraform, implementing enterprise-grade security with Okta SSO and RBAC controls.",
@@ -17,22 +17,7 @@ const experiences = [
       "Optimized containerization strategies by refactoring Dockerfiles and automating operational tasks, significantly improving build efficiency and system reliability.",
       "Proactively defined and tracked SLAs & SLOs for core services to maintain reliability and resolution.",
     ],
-  },
-  {
-    id: "cloudifyops",
-    title: "Associate DevOps Engineer",
-    company: "CloudifyOps",
-    logo: "/clops.png",
-    period: "Aug 2022 - Dec 2023",
-    location: "Bangalore, India",
-    description: [
-      "Achieved 40% AWS cost reduction through strategic implementation of Reserved Instances, Spot Instances, and proactive cost optimization measures with automated alerting.",
-      "Transformed CI/CD pipeline performance by implementing parallel jobs and caching mechanisms, reducing Jenkins build time from 30 minutes to 6 minutes (80% improvement).",
-      "Designed and implemented automated build and deployment processes using Jenkins, Bitbucket, and Maven, establishing continuous integration/delivery system for enhanced user experience.",
-      "Involved in POCs and R&D on various open-source DevOps tools, evaluating and implementing best practices that improved operational efficiency and team productivity.",
-      "Managed end-to-end infrastructure support including nightly builds, backup management, and production troubleshooting, ensuring high availability and system reliability.",
-    ],
-  },
+  }
 ];
 
 const Experience = () => {
