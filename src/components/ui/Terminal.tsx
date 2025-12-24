@@ -14,7 +14,7 @@ type FileSystem = {
 const fileSystem: FileSystem = {
   "profile.txt": `📋 DevOps Engineer Profile
 ----------------------------
-🚀 Name: Abhilash RLankarasubramanian
+🚀 Name: Abhilash RL
 🌐 Specialization: Cloud with DevOps
 🏆 Mission: Be a AWS / DevSecOps professional
 
@@ -52,14 +52,13 @@ const fileSystem: FileSystem = {
 
   "certs.yml": `🏅 Professional Certifications:
   ◉ AWS Solutions Architect - Associate
-  ◉ HashiCorp Terraform Associate
-  ◉ Oracle Cloud Infrastructure Foundations Certified Associate`,
+  ◉ AWS Certified DevOps Engineer – Professional,
 
   "contact.info": `📧 Contact Information:
 Email: abhilashnarayan1201@gmail.com
 Location: Bangalore, Karnataka, India 🇮🇳
 LinkedIn: /in/abhilash-rl
-GitHub: /rajaram0203
+GitHub: /Abhilash-1201
 Phone: +91 8748865517
 Portfolio: abhilashrl1201.github.io`,
 
@@ -101,7 +100,7 @@ DevOps Infrastructure Monitor
 
   "github.stats": `🐙 GitHub Statistics
 
-@rajarammohan0203 Profile
+@Abhilash-1201 Profile
 ═══════════════════
 
 📊 Repository Stats:
@@ -121,7 +120,7 @@ Dockerfile ████░░░░░░░░░░░░░░░░░░░
 • CI/CD pipeline templates
 • Infrastructure monitoring tools
 
-🔗 Visit: https://github.com/rajarammohan0203`,
+🔗 Visit: https://github.com/Abhilash-1201`,
 
   ".secret.txt": `🎉 Congratulations! You found the hidden file! 🎉
 
@@ -140,7 +139,7 @@ but the practices have been around much longer!
 those who understand binary and those who don't!" 😄
 
 Thanks for being curious! 
-- Yousaf K Hamza`,
+- Abhilash RL`,
 
   "devops/": {
     // Alias for kubernetes.yaml
@@ -190,27 +189,27 @@ Thanks for being curious!
 const defaultCommands: Command[] = [
   {
     command: "$ whoami",
-    output: "rajaram",
+    output: "abhilash",
     delay: 800,
   },
   {
     command: "$ pwd",
-    output: "/home/rajaram",
+    output: "/home/abhilash",
     delay: 500,
   },
   {
     command: "$ ls -la",
     output: `total 24
-drwxr-xr-x 3 rajaram rajaram 4096 Aug 25 10:30 .
-drwxr-xr-x 3 rajaram rajaram 4096 Aug 25 10:30 ..
--rw-r--r-- 1 rajaram rajaram  512 Aug 25 10:30 profile.txt
--rw-r--r-- 1 rajaram rajaram  1024 Aug 25 10:30 skills.md
--rw-r--r-- 1 rajaram rajaram  2048 Aug 25 10:30 projects.json
--rw-r--r-- 1 rajaram rajaram  256 Aug 25 10:30 certs.yml
--rw-r--r-- 1 rajaram rajaram  128 Aug 25 10:30 contact.info
--rw-r--r-- 1 rajaram rajaram  350 Aug 25 10:30 resume.pdf
--rw-r--r-- 1 rajaram rajaram  400 Aug 25 10:30 github.stats
-drwxr-xr-x 2 rajaram rajaram 4096 Aug 25 10:30 devops
+drwxr-xr-x 3 abhilash abhilash 4096 Aug 25 10:30 .
+drwxr-xr-x 3 abhilash abhilash 4096 Aug 25 10:30 ..
+-rw-r--r-- 1 abhilash abhilash  512 Aug 25 10:30 profile.txt
+-rw-r--r-- 1 abhilash abhilash  1024 Aug 25 10:30 skills.md
+-rw-r--r-- 1 abhilash abhilash  2048 Aug 25 10:30 projects.json
+-rw-r--r-- 1 abhilash abhilash  256 Aug 25 10:30 certs.yml
+-rw-r--r-- 1 abhilash abhilash  128 Aug 25 10:30 contact.info
+-rw-r--r-- 1 abhilash abhilash  350 Aug 25 10:30 resume.pdf
+-rw-r--r-- 1 abhilash abhilash  400 Aug 25 10:30 github.stats
+drwxr-xr-x 2 abhilash abhilash 4096 Aug 25 10:30 devops
 
 Type 'help' for available commands.`,
     delay: 1000,
@@ -219,7 +218,7 @@ Type 'help' for available commands.`,
 
 const Terminal = ({
   children,
-  title = "devops@rajaram:~$",
+  title = "devops@abhilash:~$",
   commands = defaultCommands,
   height = "500px", // Reduced height for better proportion
   interactive = false,
@@ -312,7 +311,7 @@ const Terminal = ({
 ${qrCode}
 
 💡 Scan with phone camera or use direct link above
-📧 Contact: madeshrajaram0203@gmail.com
+📧 Contact: abhilashnarayan1201@gmail.com
 📄 File Size: ~250KB PDF`;
       }
       return current;
@@ -596,8 +595,8 @@ Did you mean one of these?
       const command = userInput.trim();
       const prompt =
         currentPath === "/home/rajaram/devops"
-          ? "devops@rajaram:~/devops$"
-          : "devops@rajaram:~$";
+          ? "devops@abhilash:~/devops$"
+          : "devops@abhilash:~$";
 
       // Special handling for clear command
       if (command === "clear") {
@@ -837,8 +836,8 @@ Did you mean one of these?
   const getPrompt = () => {
     if (!interactive) return title;
     return currentPath === "/home/rajaram/devops"
-      ? "devops@rajaram:~/devops$"
-      : "devops@rajaram:~$";
+      ? "devops@abhilash:~/devops$"
+      : "devops@abhilash:~$";
   };
 
   return (

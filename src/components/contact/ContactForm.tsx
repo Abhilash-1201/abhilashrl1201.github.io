@@ -47,7 +47,7 @@ ${formState.message}
       // Try modern approach first, fallback to mailto
       try {
         const response = await fetch(
-          "https://formsubmit.co/yousaf.k.hamza@gmail.com",
+          "https://formsubmit.co/abhilashnarayan1201@gmail.com",
           {
             method: "POST",
             headers: {
@@ -82,7 +82,7 @@ ${formState.message}
         }
       } catch (serviceError) {
         // Fallback to mailto
-        window.location.href = `mailto:yousaf.k.hamza@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:abhilashnarayan1201@gmail.com?subject=${subject}&body=${body}`;
 
         setIsSubmitted(true);
         setFormState({
@@ -118,7 +118,7 @@ ${formState.message}
           <Check className="w-5 h-5" />
           <span>
             Thank you! Your message has been sent successfully to
-            yousaf.k.hamza@gmail.com
+            abhilashnarayan1201@gmail.com
           </span>
         </div>
       ) : (

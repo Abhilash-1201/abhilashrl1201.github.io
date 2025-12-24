@@ -67,7 +67,7 @@ const Hero = () => {
 
          <h1 className="stagger-item stagger-delay-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-dm-serif text-foreground mb-3 sm:mb-4 px-2 break-words tracking-wide">
             Abhilash RL
-            <span className="sr-only">rajaram </span>
+            <span className="sr-only">abhilash </span>
          </h1>
 
           <div className="stagger-item stagger-delay-3 h-6 sm:h-8 md:h-10 mb-4 sm:mb-6">
@@ -129,7 +129,7 @@ const Hero = () => {
 
           <div className="stagger-item stagger-delay-7 flex items-center justify-center gap-4 sm:gap-6">
             <a
-              href="https://github.com/rajarammohan0203"
+              href="https://github.com/Abhilash-1201"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors p-2"
@@ -144,7 +144,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/rajaram0203/"
+              href="https://www.linkedin.com/in/abhilash-rl-681549228/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors p-2"
@@ -159,7 +159,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://medium.com/@madeshrajaram0203"
+              href="https://medium.com/@abhilashnarayan1201"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors p-2"

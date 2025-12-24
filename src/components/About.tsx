@@ -66,7 +66,7 @@ const About = () => {
                 engineering.{" "}
                 <button
                   onClick={() => handleTerminalToggle(true)}
-                  className="text-rajaram hover:underline font-medium"
+                  className="text-abhilash hover:underline font-medium"
                 >
                   Try interactive terminal →
                 </button>
@@ -115,7 +115,7 @@ const About = () => {
                     </p>
                     <div className="space-y-2 sm:space-y-3">
                       <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-rajaram rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-abhilash rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-xs sm:text-sm text-foreground/70 leading-relaxed">
                           <strong>Cloud Platforms:</strong> AWS Solutions
                           Architect certified with expertise in EKS, Lambda, RDS, Security
@@ -123,7 +123,7 @@ const About = () => {
                         </p>
                       </div>
                       <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-rajaram rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-abhilash rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-xs sm:text-sm text-foreground/70 leading-relaxed">
                           <strong>Container Orchestration:</strong> Kubernetes,
                           Docker, Helm, kustomize with production-grade deployments and
@@ -131,7 +131,7 @@ const About = () => {
                         </p>
                       </div>
                       <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-rajaram rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-abhilash rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-xs sm:text-sm text-foreground/70 leading-relaxed">
                           <strong>DevSecOps:</strong> Integrated security
                           practices reducing vulnerabilities by 90% using SAST,
@@ -139,7 +139,7 @@ const About = () => {
                         </p>
                       </div>
                       <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-rajaram rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-abhilash rounded-full mt-2 flex-shrink-0"></div>
                         <p className="text-xs sm:text-sm text-foreground/70 leading-relaxed">
                           <strong>Leadership:</strong> Team leadership, mentoring,
                           and delivering enterprise-grade infrastructure
@@ -155,7 +155,7 @@ const About = () => {
           {/* Right: 3 Cards in column, match height to left */}
           <div className="flex-1 min-w-0 flex flex-col gap-4 sm:gap-6 justify-stretch">
             <AnimatedCard className="glass-card rounded-2xl p-4 sm:p-6 flex items-start space-x-3 sm:space-x-4 transition-all hover:translate-x-1 flex-1">
-              <div className="rounded-full bg-rajaram/10 p-2 sm:p-3 text-rajaram flex-shrink-0">
+              <div className="rounded-full bg-abhilash/10 p-2 sm:p-3 text-abhilash flex-shrink-0">
                 <Cloud className="w-5 h-5 sm:w-6 sm:h-6" />
               </div>
               <div className="min-w-0 flex-1">
@@ -170,7 +170,7 @@ const About = () => {
               </div>
             </AnimatedCard>
             <AnimatedCard className="glass-card rounded-2xl p-4 sm:p-6 flex items-start space-x-3 sm:space-x-4 transition-all hover:translate-x-1 flex-1">
-              <div className="rounded-full bg-rajaram/10 p-2 sm:p-3 text-rajaram flex-shrink-0">
+              <div className="rounded-full bg-abhilash/10 p-2 sm:p-3 text-abhilash flex-shrink-0">
                 <Server className="w-5 h-5 sm:w-6 sm:h-6" />
               </div>
               <div className="min-w-0 flex-1">
@@ -185,7 +185,7 @@ const About = () => {
               </div>
             </AnimatedCard>
             <AnimatedCard className="glass-card rounded-2xl p-4 sm:p-6 flex items-start space-x-3 sm:space-x-4 transition-all hover:translate-x-1 flex-1">
-              <div className="rounded-full bg-rajaram/10 p-2 sm:p-3 text-rajaram flex-shrink-0">
+              <div className="rounded-full bg-abhilash/10 p-2 sm:p-3 text-abhilash flex-shrink-0">
                 <Award className="w-5 h-5 sm:w-6 sm:h-6" />
               </div>
               <div className="min-w-0 flex-1">
@@ -194,8 +194,7 @@ const About = () => {
                 </h4>
                 <p className="text-xs sm:text-sm text-foreground/70 leading-relaxed">
                   Holding multiple certifications including AWS Solutions
-                  Architect, AWS SysOps Administrator, and Terraform
-                  Associate Certification, demonstrating advanced expertise in
+                  Architect, AWS DevOps Professional,demonstrating advanced expertise in
                   cloud technologies.
                 </p>
               </div>

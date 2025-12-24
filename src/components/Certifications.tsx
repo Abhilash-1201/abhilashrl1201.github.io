@@ -31,41 +31,14 @@ const certifications: Certification[] = [
     description:
       "In-depth knowledge of AWS architectural best practices, cloud security, Networking and cost optimization.",
   },
-   {
-    id: "aws-sysops",
-    title: "AWS Certified SysOps Administrator Associate",
+  {
+    id: "aws-devops-pro",
+    title: "AWS Certified DevOps Engineer – Professional",
     organization: "Amazon Web Services",
-    logo: "/awssysops.png",
-    date: "2024",
+    logo: "/awsdevops.png",
+    date: "2025",
     description:
-      "In-depth knowledge of AWS deployment, management, and operational best practices.",
-  },
-  {
-    id: "terraform-associate",
-    title: "Terraform Associate Certification",
-    organization: "KodeKloud",
-    logo: "/kk.png",
-    date: "2023",
-    description:
-      "Proficiency in Infrastructure as Code using Terraform for cloud automation.",
-  },
-  {
-    id: "oracle-cloud",
-    title: "Oracle Cloud Infrastructure Foundations Certified Associate",
-    organization: "Oracle",
-    logo: "https://www.svgrepo.com/show/354152/oracle.svg",
-    date: "2022",
-    description:
-      "Comprehensive understanding of cloud computing fundamentals, service offerings, and core infrastructure components within Oracle Cloud.",
-  },
-  {
-    id: "python",
-    title: "Basic Python Skills Certification",
-    organization: "KodeKloud",
-    logo: "/kk.png",
-    date: "2023",
-    description:
-      "Fundamental knowledge of Python programming for automation and scripting tasks.",
+      "Advanced expertise in provisioning, operating, and managing distributed systems on AWS, including CI/CD automation, infrastructure as code, monitoring, logging, security, and cost optimization best practices.",
   },
 ];
 
@@ -110,12 +83,12 @@ const Certifications = () => {
                   <h3 className="font-bold text-lg text-foreground">
                     {cert.title}
                   </h3>
-                  <p className="text-rajaram">{cert.organization}</p>
+                  <p className="text-abhilash">{cert.organization}</p>
                   <p className="text-sm text-foreground/60">
                     Issued {cert.date}
                   </p>
                 </div>
-                <div className="text-rajaram">
+                <div className="text-abhilash">
                   <Award
                     className={`transition-transform duration-300 ${
                       activeCert === cert.id ? "rotate-180" : ""

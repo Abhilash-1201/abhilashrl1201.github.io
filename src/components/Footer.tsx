@@ -12,7 +12,7 @@ const Footer = () => {
             <AnimatedYKHLogo size={50} />
             <div className="ml-2">
               <span className="font-rockybilly text-xl md:text-3xl">
-                Rajaram
+                Abhilash
               </span>
               <p className="text-sm text-foreground/60 mt-1">
                 DevOps Engineer • DevSecOps Engineer • Cloud Engineer • Site
@@ -25,7 +25,7 @@ const Footer = () => {
             <p className="text-sm">
               © {currentYear} • Crafted with
               <Heart className="inline-block w-4 h-4 mx-1 text-rajarm" />
-              in Tamil Nadu, India 🇮🇳
+              in Karnataka, India 🇮🇳
             </p>
           </div>
         </div>

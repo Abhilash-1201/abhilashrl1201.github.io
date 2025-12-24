@@ -15,7 +15,7 @@ import CloudAnimation from "@/components/ui/CloudAnimation";
 const Index = () => {
   useEffect(() => {
     // Update document title
-    document.title = "Rajaram | DevOps Engineer";
+    document.title = "Abhilash | DevOps Engineer";
 
     // Add smooth scroll behavior
     document.documentElement.style.scrollBehavior = "smooth";

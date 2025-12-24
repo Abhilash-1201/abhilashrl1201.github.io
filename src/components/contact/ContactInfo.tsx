@@ -10,10 +10,10 @@ const ContactInfo = () => {
         <div>
           <h4 className="font-medium text-foreground">Email</h4>
           <a
-            href="mailto:madeshrajaram0203@gmail.com"
+            href="mailto:abhilashnarayan1201@gmail.com"
             className="text-primary hover:text-primary-dark transition-colors"
           >
-            madeshrajaram0203@gmail.com
+            abhilashnarayan1201@gmail.com
           </a>
         </div>
       </div>
@@ -28,7 +28,7 @@ const ContactInfo = () => {
             href="tel:+919159607234"
             className="text-primary hover:text-primary-dark transition-colors"
           >
-            +91 9159607234
+            +91 8748865517
           </a>
         </div>
       </div>

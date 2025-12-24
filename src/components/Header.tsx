@@ -60,10 +60,10 @@ const Header = () => {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-sm font-medium text-foreground/80 hover:text-rajaram transition-colors relative group"
+                className="text-sm font-medium text-foreground/80 hover:text-abhilash transition-colors relative group"
               >
                 {item}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-rajaram transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-abhilash transition-all duration-300 group-hover:w-full"></span>
               </a>
             )
           )}
