@@ -52,7 +52,8 @@ const fileSystem: FileSystem = {
 
   "certs.yml": `🏅 Professional Certifications:
   ◉ AWS Solutions Architect - Associate
-  ◉ AWS Certified DevOps Engineer – Professional,
+  ◉ HashiCorp Terraform Associate
+  ◉ Oracle Cloud Infrastructure Foundations Certified Associate`,
 
   "contact.info": `📧 Contact Information:
 Email: abhilashnarayan1201@gmail.com
@@ -100,7 +101,7 @@ DevOps Infrastructure Monitor
 
   "github.stats": `🐙 GitHub Statistics
 
-@Abhilash-1201 Profile
+@abhilashrl1201 Profile
 ═══════════════════
 
 📊 Repository Stats:
@@ -120,7 +121,7 @@ Dockerfile ████░░░░░░░░░░░░░░░░░░░
 • CI/CD pipeline templates
 • Infrastructure monitoring tools
 
-🔗 Visit: https://github.com/Abhilash-1201`,
+🔗 Visit: https://github.com/abhilashrl1201`,
 
   ".secret.txt": `🎉 Congratulations! You found the hidden file! 🎉
 
@@ -235,7 +236,7 @@ const Terminal = ({
   const [isTyping, setIsTyping] = useState(true);
   const [cursorVisible, setCursorVisible] = useState(true);
   const [isProcessingCommand, setIsProcessingCommand] = useState(false);
-  const [currentPath, setCurrentPath] = useState("/home/rajaram");
+  const [currentPath, setCurrentPath] = useState("/home/abhilash");
   const [userInput, setUserInput] = useState("");
   const [commandHistory, setCommandHistory] = useState<string[]>([]);
   const [historyIndex, setHistoryIndex] = useState(-1);
@@ -335,7 +336,7 @@ ${qrCode}
       }
     } else {
       // Use current directory context
-      if (currentPath === "/home/rajaram/devops") {
+      if (currentPath === "/home/abhilash/devops") {
         current = fileSystem["devops/"];
       }
     }
@@ -365,7 +366,7 @@ ${qrCode}
           if (isDir && !item.endsWith("/")) {
             displayName = `${item}/`;
           }
-          return `${permissions} 1 rajaram  rajaram ${size
+          return `${permissions} 1 abhilash abhilash ${size
             .toString()
             .padStart(4)} ${date} ${displayName}`;
         });
@@ -394,7 +395,7 @@ ${qrCode}
     if (path === ".." || path === "../") {
       const pathParts = currentPath.split("/").filter((p) => p);
       if (pathParts.length > 2) {
-        // Don't go above /home/rajaram
+        // Don't go above /home/abhilash
         pathParts.pop();
         const newPath = "/" + pathParts.join("/");
         setCurrentPath(newPath);
@@ -404,18 +405,18 @@ ${qrCode}
     }
 
     if (path === "devops" || path === "devops/") {
-      setCurrentPath("/home/rajaram/devops");
+      setCurrentPath("/home/abhilash/devops");
       return "";
     }
 
-    if (path === "~" || path === "" || path === "/home/rajaram") {
-      setCurrentPath("/home/rajaram");
+    if (path === "~" || path === "" || path === "/home/abhilash") {
+      setCurrentPath("/home/abhilash");
       return "";
     }
 
     // Check if directory exists in file system
     if (fileSystem[path + "/"] && typeof fileSystem[path + "/"] === "object") {
-      setCurrentPath(`/home/rajaram/${path}`);
+      setCurrentPath(`/home/abhilash/${path}`);
       return "";
     }
 
@@ -470,7 +471,7 @@ Tips:
   • File extensions show content type: .txt .md .json .yml .info .pdf .stats .yaml .tf .conf .env`;
 
       case "whoami":
-        return "rajaram";
+        return "abhilash";
 
       case "pwd":
         return currentPath;
@@ -490,14 +491,14 @@ Tips:
           }
         });
 
-        if (currentPath === "/home/rajaram/devops") {
+        if (currentPath === "/home/abhilash/devops") {
           return listDirectory("", flags);
         }
         return listDirectory(pathArgs[0], flags);
 
       case "cat":
         if (!args[0]) return "cat: missing file operand";
-        if (currentPath === "/home/rajaram/devops") {
+        if (currentPath === "/home/abhilash/devops") {
           // When in devops directory, look for files directly in devops/ object
           const devopsFiles = fileSystem["devops/"] as FileSystem;
           if (
@@ -594,7 +595,7 @@ Did you mean one of these?
     if (e.key === "Enter") {
       const command = userInput.trim();
       const prompt =
-        currentPath === "/home/rajaram/devops"
+        currentPath === "/home/abhilash/devops"
           ? "devops@abhilash:~/devops$"
           : "devops@abhilash:~$";
 
@@ -636,7 +637,7 @@ Did you mean one of these?
         let files: string[] = [];
         let folders: string[] = [];
 
-        if (currentPath === "/home/rajaram/devops") {
+        if (currentPath === "/home/abhilash/devops") {
           // In devops directory
           const devopsItems = Object.keys(fileSystem["devops/"] as FileSystem);
           files = devopsItems.filter(
@@ -646,7 +647,7 @@ Did you mean one of these?
             (item) => typeof (fileSystem["devops/"] as any)[item] === "object"
           );
         } else {
-          // In root directory (/home/rajaram)
+          // In root directory (/home/abhilash)
           const rootItems = Object.keys(fileSystem);
           files = rootItems.filter(
             (item) => typeof fileSystem[item] === "string"
@@ -694,7 +695,7 @@ Did you mean one of these?
       } else if (words[0] === "cd") {
         // Completing folder names for cd command
         let allItems = [...folders];
-        if (currentPath !== "/home/rajaram") {
+        if (currentPath !== "/home/abhilash") {
           allItems.push(".."); // Add parent directory option
         }
         allItems.push("~"); // Add home directory option
@@ -835,7 +836,7 @@ Did you mean one of these?
 
   const getPrompt = () => {
     if (!interactive) return title;
-    return currentPath === "/home/rajaram/devops"
+    return currentPath === "/home/abhilash/devops"
       ? "devops@abhilash:~/devops$"
       : "devops@abhilash:~$";
   };
